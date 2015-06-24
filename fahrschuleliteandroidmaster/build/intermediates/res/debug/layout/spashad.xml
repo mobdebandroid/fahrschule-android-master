@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<AbsoluteLayout android:id="@+id/absoluteLayout1"
+		android:layout_height="44sp"
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/titleView"
+		android:layout_alignLeft="@+id/titleView">
+	
+		<TextView android:id="@+id/titleView"
+			android:gravity="center"
+			android:background="@drawable/black_white_gradient"
+			android:text="@string/advertisement"
+			android:textSize="18sp"
+			android:layout_width="fill_parent"
+			android:textStyle="bold"
+			android:layout_height="44sp"
+			android:textColor="#ffffff" />
+		
+		<Button android:id="@+id/closeButton"
+			android:text="@string/close"
+			android:textColor="#ffffff"
+			android:layout_width="wrap_content"
+			android:layout_height="30sp"
+			android:onClick="closeSplashAd"
+			android:layout_x="5sp"
+			android:layout_y="7sp"
+			android:paddingTop="0sp"
+			android:paddingBottom="0sp"
+			android:background="@drawable/black_button" />
+			
+		<ProgressBar android:id="@+id/loadingProgressBar"
+			android:layout_width="30sp"
+			android:layout_height="30sp"
+			android:layout_x="285sp"
+			android:layout_y="7sp"
+			android:visibility="gone" />
+		
+	</AbsoluteLayout>
+
+	<WebView 
+		android:id="@+id/webView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/absoluteLayout1"
+		android:scrollbars="none" />
+		
+</RelativeLayout><!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/freenetSharedLibrary/res/layout/spashad.xml --><!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/build/intermediates/exploded-aar/fahrschulelite-android-master/freenetSharedLibrary/unspecified/res/layout/spashad.xml -->

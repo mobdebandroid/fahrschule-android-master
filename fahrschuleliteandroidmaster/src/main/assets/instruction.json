@@ -1,0 +1,176 @@
+[
+    [
+        {
+            "y": 240,
+            "y_xhdpi": 284, 
+            "text": "Behalte den \u00dcberblick, wie viele Fragen du aus dem gesamten Fragenkatalog (blau) bereits richtig (gr\u00fcn) bzw. falsch (rot) beantwortet hast.", 
+            "x": 170,
+            "x_mdpi": 172,
+            "x_xhdpi": 169
+        }, 
+        {
+            "y": 69, 
+            "text": "Die \u201e1\u201c signalisiert dir, dass noch eine angefangene Pr\u00fcfung offen ist.", 
+            "x": 126
+        }
+    ], 
+    [
+        {
+            "y": 62, 
+            "text": "Nutze das \u201eMarkierte\u201c-Fragenarchiv, um die von dir dort abgelegten Fragen gezielt zu lernen.\n\nJede F\u00fchrerscheinklasse hat ein separates \u201eMarkierte\u201c-Fragenarchiv.", 
+            "x": 238
+        }, 
+        {
+            "y": 470,
+            "y_mdpi": 414,
+            "y_xhdpi": 510,
+            "text": "W\u00e4hle \u201eAbfragen\u201c, um eine Serie von Fragen deiner Wahl zu beantworten. Die Abfrage umfasst nur den jeweiligen Bereich.", 
+            "x": 80
+        }, 
+        {
+            "y": 470,
+            "y_mdpi": 414,
+            "y_xhdpi": 510,
+            "text": "Gebe Stichtworte ein, um Fragen zu suchen.", 
+            "x": 240
+        }, 
+        {
+            "y": 365, 
+            "text": "Der Fortschrittsbalken zeigt dir, wie viele Fragen du in dem jeweiligen Bereich bereits bearbeitet hast.", 
+            "x": 259
+        }
+    ], 
+    [
+        {
+            "y": 20,
+            "text": "Zeigt die Fehlerpunktzahl der jeweiligen Frage an.", 
+            "x": 108,
+            "x_xhdpi": 93
+        }, 
+        {
+            "y": 61,
+            "text": "Markiere Fragen, die du sp\u00e4ter noch einmal \u00fcben m\u00f6chtest. Diese Fragen findest du dann im \u201eMarkierte\u201c-Fragenarchiv.\n\nJede F\u00fchrerscheinklasse hat ein separates \u201eMarkierte\u201c-Fragenarchiv.", 
+            "x": 299
+        }, 
+        {
+            "y": 353, 
+            "y_mdpi": 300,
+            "y_xhdpi":409,
+            "text": "Haken bzw. Kreuze markieren die richten bzw. falschen Antworten.", 
+            "x": 14
+        }, 
+        {
+            "y": 485, 
+            "y_mdpi": 432,
+            "y_xhdpi":527,
+            "text": "W\u00e4hle \u201eL\u00f6sung\u201c und du erh\u00e4lst die korrekten Antworten.", 
+            "x": 160
+        }, 
+        {
+            "y": 353, 
+            "y_mdpi": 300,
+            "y_xhdpi":409,
+            "text": "Markiere die korrekten Antworten, indem du sie eindr\u00fcckst.", 
+            "x": 115
+        }, 
+        {
+            "y": 215, 
+            "y_mdpi": 192,
+            "y_xhdpi": 240,
+            "text": "Drehe dein Ger\u00e4t, um vergr\u00f6\u00dferte Darstellungen sehen zu k\u00f6nnen.", 
+            "icon": "icon_drehen.png", 
+            "x": 160
+        }
+    ], 
+    [
+        {
+            "y": 470, 
+            "y_mdpi": 414,
+            "y_xhdpi": 510,
+            "text": "Nutze das Pr\u00fcfungsarchiv, um die L\u00f6sungen abgelegter Pr\u00fcfungen noch einmal durchzugehen.\n\nJede F\u00fchrerscheinklasse und jeder Erwerbstyp hat ein separates Pr\u00fcfungs- archiv.", 
+            "x": 80,
+            "x_xhdpi":160
+        }, 
+        {
+            "y": 160,
+            "y_xhdpi":219,
+            "text": "Die Statistik listet deine letzten sechs Pr\u00fcfungen auf und zeigt dir, ob du bestanden hast oder nicht.", 
+            "x": 112
+        }, 
+        {
+            "y": 280,
+            "y_xhdpi":324,
+            "text": "Drehe dein Ger\u00e4t, um ausf\u00fchrlichere Statistiken zu erhalten.", 
+            "x": 288,
+            "x_xhdpi":277
+        }
+    ], 
+    [
+    	{
+    		"y": 22,
+            "text": "Kennzeichnung einer sog. \"Mutterfrage\". Zu dieser Frage kann in der offiziellen Pr\u00fcfung eine Bild-Variante mit anderen Hintergr\u00fcnden und anderen Verkehrsteilnehmern angezeigt werden.",
+            "x": 148,
+            "x_xhdpi": 130
+    	},
+        {
+            "y": 22, 
+            "text": "Zeigt die verbleibende Pr\u00fcfungszeit an.", 
+            "x": 286
+        }, 
+        {
+            "y": 64, 
+            "text": "Markiere Fragen, die du sp\u00e4ter noch einmal \u00fcben m\u00f6chtest. Diese Fragen findest du dann im \u201eMarkierte\u201c-Fragenarchiv.\n\nJede F\u00fchrerscheinklasse hat ein separates \u201eMarkierte\u201c-Fragenarchiv.", 
+            "x": 300
+        }, 
+        {
+            "y": 353,
+            "y_mdpi": 300,
+            "y_xhdpi": 408,
+            "text": "Markiere die korrekten Antworten, indem du sie eindr\u00fcckst.", 
+            "x": 115
+        }, 
+        {
+            "y": 485, 
+            "y_mdpi": 432,
+            "y_xhdpi":527,
+            "text": "W\u00e4hle \u201eAbgeben\u201c und erhalte dein Pr\u00fcfungsergebnis.", 
+            "x": 160
+        }, 
+        {
+            "y": 210, 
+            "y_mdpi": 192,
+            "y_xhdpi": 240,
+            "text": "Drehe dein Ger\u00e4t, um vergr\u00f6\u00dferte Darstellungen sehen zu k\u00f6nnen.", 
+            "icon": "icon_drehen.png",
+            "x": 160
+        }
+    ],
+    [
+        {
+            "y": 147,
+            "y_xhdpi": 129,
+            "text": "Bitte beachte: jede F\u00fchrerscheinklasse und jeder Erwerbstyp verf\u00fcgt \u00fcber ein separates Pr\u00fcfungsarchiv inklusive Statistik. Jede F\u00fchrerscheinklasse hat zudem ein eigenes \u201eMarkierte\u201c-Fragenarchiv.", 
+            "x": 23
+        }, 
+        {
+            "y": 202,
+            "y_xhdpi": 178, 
+            "text": "Der \u201eErwerbstyp\u201c hat Auswirkungen auf die Pr\u00fcfung. W\u00e4hle \u201eErsterwerb\u201c, wenn es dein erster F\u00fchrerschein ist. \u00dcber \u201eErweiterung\u201c kannst du zu deinem F\u00fchrerschein eine weitere Klasse pr\u00fcfen.", 
+            "x": 23
+        }, 
+        {
+            "y": 279,
+            "y_xhdpi": 248,
+            "text": "Aktiviere \u201eGastmodus\u201c, wenn deine pers\u00f6nlichen Statistiken nicht durch andere Nutzer der App beeinflu\u00dft werden sollen.", 
+            "x": 296,
+            "x_xhdpi": 299
+        },
+        {
+            "y": 334,
+            "y_xhdpi": 296,
+            "text": "Aktiviere das \u201eoffizielle Pr\u00fcfungslayout\u201c und du erh\u00e4lst ein Layout, das der Theoriepr\u00fcfung des T\u00dcV entspricht.\n\nAchtung: Eine hier markierte Frage wird NICHT in den Markierte-Ordner des Lernmodus \u00fcbernommen.",
+            "x": 296,
+            "x_xhdpi": 299
+        }
+    ]
+]

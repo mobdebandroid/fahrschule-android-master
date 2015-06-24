@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <de.freenet.pocketfahrschulelite.widget.CustomGallery
+    	android:layout_height="fill_parent"
+    	android:layout_width="fill_parent"
+    	android:spacing="10dp"
+    	android:fadingEdge="none"
+    	android:id="@+id/gallery1" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/white"
+        android:background="@drawable/instruction_button"
+        android:onClick="closeInstruction"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text=" X " />
+    	
+    <ImageButton
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:id="@+id/imageButton1"
+    	android:src="@drawable/help_arrow_left"
+    	android:background="@android:color/transparent"
+    	android:onClick="changeHelpScreen"
+    	android:layout_marginLeft="8dp"
+    	android:layout_marginBottom="8dp"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentLeft="true" />
+    	
+    <ImageButton
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:id="@+id/imageButton2"
+    	android:src="@drawable/help_arrow_right"
+    	android:background="@android:color/transparent"
+    	android:onClick="changeHelpScreen"
+    	android:layout_marginRight="8dp"
+    	android:layout_marginBottom="8dp"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentRight="true" />
+    	
+</RelativeLayout>

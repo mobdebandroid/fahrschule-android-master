@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/official_exam_light_green">
+
+	<RelativeLayout
+		android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+           
+		<TextView
+			android:text="@string/license_class_and_error_points"
+			android:textSize="17sp"
+			android:textColor="@android:color/black"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="7dp"
+			android:layout_marginTop="10dp"
+			android:id="@+id/examResultPointsTextView" />
+		
+		<TextView
+			android:text="@string/exam_passed"
+			android:textSize="17sp"
+			android:textColor="@android:color/white"
+			android:background="@color/official_exam_darker_green"
+			android:layout_height="wrap_content"
+			android:layout_width="139dp"
+			android:layout_marginRight="4dp"
+			android:layout_marginTop="4dp"
+			android:paddingTop="3dp"
+			android:paddingBottom="3dp"
+			android:gravity="center"
+			android:layout_alignParentRight="true"
+			android:id="@+id/examResultTextView" />
+		
+		<TextView
+			android:text="@string/official_result_main_title"
+			android:textSize="17sp"
+			android:textColor="@android:color/white"
+			android:background="@color/official_exam_dark_blue"
+			android:layout_below="@+id/examResultPointsTextView"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginRight="4dp"
+			android:layout_marginLeft="4dp"
+			android:layout_marginTop="4dp"
+			android:paddingTop="3dp"
+			android:paddingBottom="3dp"
+			android:gravity="center"
+			android:layout_alignParentRight="true"
+			android:id="@+id/examMainResultTextView" />
+		
+		<LinearLayout
+		    android:id="@+id/mainQuestionsLinearLayout"
+		    android:layout_below="@+id/examMainResultTextView"
+		    android:layout_marginRight="4dp"
+			android:layout_marginLeft="4dp"
+		    android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+		</LinearLayout>
+		
+		<TextView
+			android:text="@string/official_result_additional_title"
+			android:textSize="17sp"
+			android:textColor="@android:color/white"
+			android:background="@color/official_exam_dark_blue"
+			android:layout_below="@+id/mainQuestionsLinearLayout"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginRight="4dp"
+			android:layout_marginLeft="4dp"
+			android:paddingTop="3dp"
+			android:paddingBottom="3dp"
+			android:gravity="center"
+			android:layout_alignParentRight="true"
+			android:id="@+id/examAdditionalResultTextView" />
+           
+		<LinearLayout
+		    android:id="@+id/additionalQuestionsLinearLayout"
+		    android:layout_below="@+id/examAdditionalResultTextView"
+		    android:layout_marginRight="4dp"
+			android:layout_marginLeft="4dp"
+		    android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+		</LinearLayout>
+		
+	</RelativeLayout>
+	
+</ScrollView>

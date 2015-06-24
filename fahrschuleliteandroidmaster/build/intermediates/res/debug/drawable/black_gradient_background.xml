@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:angle="270"
+        android:startColor="#4b494a" android:endColor="#010101" />
+</shape>
+<!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/drawable/black_gradient_background.xml -->

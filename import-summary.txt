@@ -1,0 +1,60 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+ * Project
+   fahrschulelite-android-master:D:\LindenValley\Mobicom_03062015\project\studio
+   fahrschulelite-android-master\fahrschuleliteandroidmaster\proguard.cfg:
+   Local proguard config file name is not unique
+
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .gitmodules
+* README.md
+* deps\
+* deps\freetype-2.4.6.tar.bz2
+* deps\jbig2dec-0.11.tar.gz
+* deps\jpegsrc.v8a.tar.gz
+* deps\mupdf-snapshot-20111207.tar.gz
+* deps\openjpeg_v1_4_sources_r697.tgz
+* proguard.cfg
+* scripts\
+* scripts\build-native.sh
+* scripts\colorize-images.sh
+* scripts\fontdump
+* scripts\scale-images.sh
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => fahrschuleliteandroidmaster\src\main\AndroidManifest.xml
+* assets\ => fahrschuleliteandroidmaster\src\main\assets\
+* jni\ => fahrschuleliteandroidmaster\src\main\jni\
+* libs\armeabi-v7a\libpdfview2.so => fahrschuleliteandroidmaster\src\main\jniLibs\armeabi-v7a\libpdfview2.so
+* libs\armeabi\libpdfview2.so => fahrschuleliteandroidmaster\src\main\jniLibs\armeabi\libpdfview2.so
+* libs\GoogleAdMobAdsSdk-4.3.1.jar => fahrschuleliteandroidmaster\libs\GoogleAdMobAdsSdk-4.3.1.jar
+* libs\HockeySDK.jar => fahrschuleliteandroidmaster\libs\HockeySDK.jar
+* res\ => fahrschuleliteandroidmaster\src\main\res\
+* src\ => fahrschuleliteandroidmaster\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

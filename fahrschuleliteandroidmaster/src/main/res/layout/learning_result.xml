@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg_mit_gitter">
+	
+    <RelativeLayout
+        android:id="@+id/relativeLayoutWrapper"
+        android:layout_centerHorizontal="true"
+		android:layout_width="320dp"
+		android:layout_height="wrap_content">
+	
+		<LinearLayout
+			android:id="@+id/learningResultLinearLayout1"
+			android:background="@drawable/fenster_formel_navi"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		
+			<TextView
+				android:id="@+android:id/text1"
+				android:text="TextView"
+				android:textColor="@android:color/white"
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:layout_marginTop="3dp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" />
+		
+		</LinearLayout>
+		
+		<ImageView
+			android:src="@drawable/maskotchen_session_end"
+			android:layout_alignParentRight="true"
+			android:layout_marginTop="25dp"
+			android:layout_width="75dp"
+			android:layout_height="85dp"
+			android:id="@+id/imageView1"/>
+			
+		<ImageView
+			android:src="@drawable/image_session_end"
+			android:layout_marginTop="10dp"
+			android:layout_below="@+id/learningResultLinearLayout1"
+			android:layout_width="320dp"
+			android:layout_height="285dp" />
+			
+		<TextView
+			android:id="@+id/learningResultCorrectTextView"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="12"
+			android:textSize="52sp"
+			android:textColor="@android:color/white"
+			android:textStyle="bold"
+			android:shadowColor="@android:color/black"
+			android:shadowDx="0"
+			android:shadowDy="1.0"
+			android:shadowRadius="1"
+			android:layout_width="70dp"
+			android:layout_alignParentLeft="true"
+			android:layout_marginTop="210dp"
+			android:layout_marginLeft="54dp" />
+		
+		<TextView
+			android:id="@+id/learningResultFaultyTextView"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="3"
+			android:textSize="52sp"
+			android:textColor="@android:color/white"
+			android:textStyle="bold"
+			android:shadowColor="@android:color/black"
+			android:shadowDx="0"
+			android:shadowDy="1.0"
+			android:shadowRadius="1"
+			android:layout_width="70dp"
+			android:layout_alignParentRight="true"
+			android:layout_alignBottom="@+id/learningResultCorrectTextView"
+			android:layout_marginRight="54dp" />
+	
+	</RelativeLayout>
+		
+	<Button
+		android:id="@+id/button1"
+		android:layout_height="45dp"
+		android:text="@string/show_all_questions"
+		style="@style/CustomButton"
+		android:layout_width="300dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="320dp"
+		android:onClick="showAllQuestions" />
+		
+	<Button
+		android:id="@+id/button2"
+		android:layout_height="45dp"
+		android:text="@string/show_all_faulty_questions"
+		style="@style/CustomButton"
+		android:layout_width="300dp"
+		android:layout_marginTop="8dp"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/button1"
+		android:layout_alignLeft="@+id/examButton"
+		android:onClick="showFaultyQuestions" />
+	
+</RelativeLayout>

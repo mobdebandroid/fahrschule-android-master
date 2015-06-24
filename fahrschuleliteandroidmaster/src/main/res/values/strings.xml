@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_short">Fahrschule</string>
+    <string name="app_name">Pocket Fahrschule Lite</string>
+	<string name="learning">Lernen</string>
+	<string name="exam">Prüfung</string>
+	<string name="extras">Extras</string>
+	<string name="settings">Einstellungen</string>
+	<string name="yes">Ja</string>
+	<string name="no">Nein</string>
+	<string name="impressum">Impressum</string>
+	<string name="welcome_title_1">Willkommen bei der</string>
+	<string name="welcome_text_1">Mit der Lite-Version kannst du alle wichtigen Funktionen ausprobieren.\nBitte beachte, dass der Fragenkatalog nur eine kleine Auswahl anbietet. </string>
+	<string name="welcome_text_2">Die folgende Tour erklärt dir Schritt für Schritt die wichtigsten Funktionen der App.</string>
+	<string name="quit">Beenden</string>
+	<string name="quit_dialogbox">Möchtest du Pocket Fahrschule Lite wirklich beenden?</string>
+	
+	<string name="market_not_installed">Market nicht installiert</string>
+	<string name="market_not_installed_desc">Android Market ist erforderlich, um die App zu bewerten</string>
+    <string name="androidpit_not_installed">App Center nicht installiert</string>
+	<string name="androidpit_not_installed_desc">AndroidPIT App Center ist erforderlich, um die App zu bewerten</string>
+	<string name="samsungapps_not_installed">Samsung Apps nicht installiert</string>
+	<string name="samsungapps_not_installed_desc">Samsung Apps ist erforderlich, um die App zu bewerten</string>
+	<string name="amazon_not_installed">Amazon Appstore nicht installiert</string>
+	<string name="amazon_not_installed_desc">Amazon Appstore ist erforderlich, um die App zu bewerten</string>
+    
+    <!-- Learning  -->
+    <string name="correct">Richtig</string>
+    <string name="faulty">Falsch</string>
+    <string name="remaining">Verbleibend</string>
+    <string name="to_question_catalog">Zum Fragenkatalog</string>
+    <string name="question_catalog">Fragenkatalog</string>
+    <string name="base_material">Grundstoff</string>
+    <string name="additional_material">Zusatzstoff</string>
+    <string name="solution">Lösung</string>
+    <string name="search">Suchen</string>
+    <string name="search_hint">Frage suchen</string>
+    <string name="searching">Suchen ...</string>
+    <string name="results">Ergebnis</string>
+    <string name="no_results">Keine Ergebnisse</string>
+    <string name="tagged_questions">Markierte Fragen</string>
+    <string name="no_tagged_questions">Keine markierte Fragen vorhanden</string>
+    <string name="show_all_questions">Alle Fragen anzeigen</string>
+    <string name="show_all_faulty_questions">Fehler anzeigen</string>
+    <string name="polling">Abfragen</string>
+    <string name="no_questions_available">Keine Fragen verfügbar</string>
+    <string name="question_image_clicked">Zur Vergrößerung bitte das Gerät drehen.</string>
+    
+    <!-- Exam -->
+    <string name="exam_mode">Prüfungsmodus</string>
+    <string name="exam_desc">Diese Version simuliert eine abgespeckte Prüfung mit 10 Fragen. Die Vollversion enthält die realen Prüfungsbedingungen.</string>
+    <string name="good_luck">Viel Erfolg!</string>
+    <string name="start">Start</string>
+    <string name="hand_in_exam">Abgeben</string>
+    <string name="retry_exam">Prüfung wiederholen</string>
+    <string name="points_graph">Punkte</string>
+    <string name="points_exam_result">%d Punkte</string>
+    <string name="minutes_exam_result">%d min.</string>
+    <string name="seconds_exam_result">%d sek.</string>
+    <string name="bar_chart_info">*2 Fragen mit der Wertigkeit 5 führen zu einer nicht bestandenen Prüfung.</string>
+    <string name="exam_archive">Prüfungsarchiv</string>
+    <string name="points">Pkt.</string>
+    <string name="abort_exam">Prüfung unterbrechen</string>
+    <string name="abort_exam_dialogbox">Möchtest du die Prüfung wirklich unterbrechen?</string>
+    <string name="resume_exam_dialogbox">Möchtest du die letzte Prüfung fortsetzen?</string>
+    <string name="questions_left">noch %d Aufgaben</string>
+    <string name="official_hand_in">Abgabe</string>
+    <string name="official_next">Weiter</string>
+    <string name="official_tag">Markieren</string>
+    <string name="official_untag">Demarkieren</string>
+    <string name="license_class_and_error_points">Klasse %1$s - %2$d Fehlerpunkte</string>
+    <string name="exam_passed">bestanden</string>
+    <string name="exam_failed">nicht bestanden</string>
+    <string name="official_result_main_title">Grundstoff - %d Fehlerpunkte</string>
+    <string name="official_result_additional_title">Zusatzstoff Klasse %1$s - %2$d Fehlerpunkte</string>
+    
+    <!-- Extras -->
+    <string name="instruction">Anleitung</string>
+    <string name="formulary">Formelsammlung</string>
+    <string name="braking_distance">Bremswegsberechner</string>
+    <string name="traffic_signs">Verkehrszeichen</string>
+    <string name="stvo">StVO</string>
+    <string name="rate_app">App bewerten</string>
+    <string name="velocity">Geschwindigkeit</string>
+    <string name="reaction_plus_break">Reaktionsweg + Bremsweg</string>
+    
+    <!-- Braking distance -->
+    <string name="reaction_distance">Reaktionsweg:</string>
+    <string name="braking_distance_normal">Bremsweg (normal):</string>
+    <string name="braking_distance_emergency">Bremsweg (Gefahrenbremsung):</string>
+    <string name="stopping_distance_normal">Anhalteweg (nomal):</string>
+    <string name="stopping_distance_emergency">Anhalteweg (Gefahrenbremsung):</string>
+    
+    <!-- Settings -->
+    <string name="question_filter">Fragenfilter</string>
+    <string name="additional_settings">Zusatzeinstellungen</string>
+    <string name="license_class">Führerscheinklasse</string>
+    <string name="teaching_type">Erwerbstyp</string>
+    <string name="guest_mode">Gastmodus</string>
+    <string name="instant_solution_mode">Lösungen</string>
+    <string name="delete_statistic">Statistiken löschen</string>
+    <string name="question_catalog_status">Stand des Fragenkatalogs: 01.07.2011</string>
+    <string name="guest_mode_desc">Statistik wird nicht verändert</string>
+    <string name="instant_solution_mode_desc">Lösungen sofort anzeigen</string>
+    <string name="delete_statistic_desc">Setzt Lernstatistiken der aktuellen Klasse zurück</string>
+    <string name="delete_statistic_dialogbox">Möchtest du wirklich die Lernstatistiken der aktuellen Klasse zurücksetzen?</string>
+    <string name="statistics_deleted">Lernstatisktiken für %s wurde zurückgesetzt</string>
+    <string name="exam_layout">Prüfungslayout</string>
+    <string name="exam_layout_desc">Offizielles TÜV-Layout</string>
+    
+   	<!-- License -->
+   	<string name="close">Schließen</string>
+   	<string name="license_dialog_title">Lizenzierung</string>
+   	<string name="license_dialog_no_app_center_text">Für dein Konto wurde keine Android Market Lizenz gefunden.\n\nEine Lizenz von AndroidPIT konnte nicht überprüft werden, weil \"App Center\" nicht installiert ist.</string>
+   	<string name="license_dialog_no_license_found_text">Für keines deiner Konten wurde eine Lizenz gefunden.</string>
+	<string name="license_dialog_not_connected_text">Die Lizenz konnte nicht überprüft werden. Bitte stelle sicher, dass eine Internetverbindung besteht.</string>
+	<string name="license_dialog_not_authenticated_text">Deine Benutzerdaten konnten nicht authentisiert werden.</string>
+	<string name="license_dialog_server_failure_text">Es konnte keine Verbindung zum Server hergestellt werden.</string>
+	<string name="license_dialog_error_text">Bei der Lizenzüberprüfung ist ein Fehler aufgetreten. Bitte die Entwickler kontaktieren. Errorkode: %s</string>
+	
+	<!-- Buy full version -->
+	<string name="buy_full_version_title">Hole dir jetzt die Vollversion!</string>
+	<string name="buy_full_version">Vollversion kaufen</string>
+	<string name="buy_full_version_text">Lerne mit dem <u>kompletten</u> Fragenkatalog und nutze weitere tolle Extras.</string>
+    <string name="title_activity_main_navigation_new">MainNavigation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="falsch">FALSCH</string>
+    <string name="rightige">RIGHTIGE</string>
+    <string name="verbleibend">VERBLEIBEND</string>
+    <string name="beantwortet">BEANTWORTET</string>
+
+</resources>

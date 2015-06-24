@@ -1,0 +1,106 @@
+[
+	{
+        "title": "Motorr\u00e4der", 
+        "image": "motorrad", 
+        "class": "A", 
+        "shortname": "A (Motorrad)", 
+        "id": 1, 
+        "desc": "unbeschr\u00e4nkt"
+    }, 
+    {
+        "title": "Leichtkraftr\u00e4der", 
+        "image": "motorrad", 
+        "class": "A1", 
+        "shortname": "A1 (Motorrad)", 
+        "id": 2, 
+        "desc": "bis 125 ccm und 11 kw"
+    },
+    {
+        "title": "Kraftr\u00e4der", 
+        "image": "motorrad", 
+        "class": "A2", 
+        "shortname": "A2 (Motorrad)", 
+        "id": 8192,
+        "desc": "bis 35 kW"
+    },
+    {
+        "title": "Kleinkraftr\u00e4der", 
+        "image": "motorrad", 
+        "class": "AM", 
+        "shortname": "AM (Kleinkraftr\u00e4der)",
+        "id": 16384, 
+        "desc": "bis 4 kW und 45 km/h"
+    },
+    {
+        "title": "Pkw", 
+        "image": "auto", 
+        "class": "B", 
+        "shortname": "B (Pkw)", 
+        "id": 4, 
+        "desc": "bis 3,5 t"
+    },
+    {
+        "title": "Schwere Lkw", 
+        "image": "lkw", 
+        "class": "C", 
+        "shortname": "C (Lkw)", 
+        "id": 8, 
+        "desc": "\u00fcber 3,5 t"
+    },
+    {
+        "title": "Leichtere Lkw", 
+        "image": "lkw", 
+        "class": "C1", 
+        "shortname": "C1 (Lkw)", 
+        "id": 16, 
+        "desc": "von 3,5 t - 7,5 t"
+    }, 
+    {
+        "title": "Schwere Lastz\u00fcge", 
+        "image": "lkw", 
+        "class": "CE", 
+        "shortname": "CE (Lkw)", 
+        "id": 32, 
+        "desc": "\u00fcber 3,5 t"
+    },
+    {
+        "title": "Busse", 
+        "image": "bus", 
+        "class": "D", 
+        "shortname": "D (Bus)", 
+        "id": 64, 
+        "desc": "mit mehr als 16 Sitzpl\u00e4tzen"
+    }, 
+    {
+        "title": "Kleinere Busse", 
+        "image": "bus", 
+        "class": "D1", 
+        "shortname": "D1 (Bus)", 
+        "id": 128, 
+        "desc": "mit 9 bis 16 Sitzpl\u00e4tzen"
+    },
+    {
+        "title": "Traktoren", 
+        "image": "traktor", 
+        "class": "T", 
+        "shortname": "T (Traktoren)", 
+        "id": 512, 
+        "desc": "beschr\u00e4nkt und unbeschr\u00e4nkt"
+    },
+    {
+        "title": "Traktoren", 
+        "image": "traktor", 
+        "class": "L", 
+        "shortname": "L (Traktoren)", 
+        "id": 1024, 
+        "desc": "beschr\u00e4nkt und unbeschr\u00e4nkt"
+    },
+    {
+        "title": "Mofa", 
+        "image": "motorrad", 
+        "class": "MOFA", 
+        "shortname": "MOFA", 
+        "id": 4096, 
+        "desc": "bis 50 ccm und 25 km/h"
+    }
+]

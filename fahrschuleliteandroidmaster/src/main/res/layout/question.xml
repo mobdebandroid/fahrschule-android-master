@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg_mit_gitter">
+	
+	<ImageButton
+		android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/questionWrapperRelativeLayout"
+        android:layout_above="@+id/questionAnswerWrapper"
+        android:src="@drawable/icon"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:id="@+id/questionImageButton" />
+	
+    <RelativeLayout
+    	android:layout_height="wrap_content"
+    	android:id="@+id/questionWrapperRelativeLayout"
+    	android:layout_width="fill_parent"
+    	android:background="@drawable/question_text_background">
+    	
+        <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_toLeftOf="@+id/markedQuestionCheckBox"
+        	android:minHeight="75dp"
+        	android:id="@+id/questionTextView"
+        	android:text="TextView TextView TextView"
+        	android:textColor="@android:color/black"
+        	android:textStyle="bold"
+        	android:layout_marginTop="5dp"
+        	android:layout_marginLeft="5dp"
+        	android:layout_marginBottom="5dp"
+        	android:layout_alignParentTop="true"
+        	android:layout_alignParentLeft="true" />
+        
+        <CheckBox
+        	android:layout_width="30dp"
+        	android:layout_height="30dp"
+        	android:text=""
+        	android:id="@+id/markedQuestionCheckBox"
+        	android:button="@drawable/marked_question"
+        	android:layout_marginTop="5dp"
+        	android:layout_marginLeft="5dp"
+        	android:layout_marginRight="5dp"
+        	android:layout_alignParentTop="true"
+        	android:layout_alignParentRight="true" />
+    	
+    </RelativeLayout>
+    
+    <ImageView
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionWrapperRelativeLayout"
+        android:src="@drawable/bg_frage_ohne_pfeil"
+        android:id="@+id/questionWrapperBottomImageView" />
+	
+	<ImageView
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/questionAnswerWrapper"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/mascot"
+        android:id="@+id/questionMacotImageView" />
+        
+	<LinearLayout 
+		android:id="@+id/questionAnswerWrapper"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        
+		<LinearLayout
+			android:id="@+id/questionAnswerCheckBoxWrapper"
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:visibility="gone"
+	        android:layout_alignParentBottom="true">
+	        
+	        <RelativeLayout
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content">
+	        
+	        	<CheckBox
+					android:text="CheckBox"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="@color/textcolor_question_checkbox"
+					android:paddingLeft="40dp"
+					android:paddingRight="5dp"
+					android:id="@+id/questionAnswerCheckBox1"
+					android:button="@android:color/transparent"
+					android:background="@drawable/question_checkbox_background"
+					android:minHeight="44dp"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+					
+				<TextView
+					android:id="@+id/questionAnswerTextView1"
+	        		android:text="A"
+	        		android:textSize="30sp"
+	        		android:textStyle="bold"
+	        		android:textColor="@android:color/darker_gray"
+	        		android:layout_centerVertical="true"
+	        		android:layout_marginLeft="6dp"
+	        		android:layout_marginRight="6dp"
+	        		android:layout_width="wrap_content"
+	        		android:layout_height="wrap_content" />
+	        		
+	        	<ImageView
+					android:id="@+id/questionAnswerImageView1"
+					android:src="@drawable/icon_richtig"
+					android:visibility="gone"
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="2dp"
+					android:layout_width="27dp"
+					android:layout_height="31dp" />
+	        		
+	        	<View 
+	        		android:background="@android:color/darker_gray"
+	        		android:layout_toRightOf="@+id/questionAnswerTextView1"
+	        		android:layout_alignTop="@+id/questionAnswerCheckBox1"
+	        		android:layout_alignBottom="@+id/questionAnswerCheckBox1"
+	        		android:layout_width="1dp"
+	        		android:layout_height="wrap_content" />
+	        
+	        </RelativeLayout>
+	        
+	        <View 
+        		android:background="@android:color/darker_gray"
+        		android:layout_width="fill_parent"
+        		android:layout_height="1dp" />
+	        
+	        <RelativeLayout
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content">
+	        
+	        	<CheckBox
+					android:text="CheckBox"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="@color/textcolor_question_checkbox"
+					android:paddingLeft="40dp"
+					android:paddingRight="5dp"
+					android:id="@+id/questionAnswerCheckBox2"
+					android:button="@android:color/transparent"
+					android:background="@drawable/question_checkbox_background"
+					android:minHeight="44dp"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+					
+				<TextView
+					android:id="@+id/questionAnswerTextView2"
+	        		android:text="B"
+	        		android:textSize="30sp"
+	        		android:textStyle="bold"
+	        		android:textColor="@android:color/darker_gray"
+	        		android:layout_centerVertical="true"
+	        		android:layout_marginLeft="6dp"
+	        		android:layout_marginRight="6dp"
+	        		android:layout_width="wrap_content"
+	        		android:layout_height="wrap_content" />
+	        		
+				<ImageView
+					android:id="@+id/questionAnswerImageView2"
+					android:src="@drawable/icon_falsch"
+					android:visibility="gone"
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="2dp"
+					android:layout_width="27dp"
+					android:layout_height="31dp" />
+	        		
+	        	<View 
+	        		android:background="@android:color/darker_gray"
+	        		android:layout_toRightOf="@+id/questionAnswerTextView2"
+	        		android:layout_alignTop="@+id/questionAnswerCheckBox2"
+	        		android:layout_alignBottom="@+id/questionAnswerCheckBox2"
+	        		android:layout_width="1dp"
+	        		android:layout_height="wrap_content" />
+	        
+	        </RelativeLayout>
+	        
+	        <View 
+        		android:background="@android:color/darker_gray"
+        		android:layout_width="fill_parent"
+        		android:layout_height="1dp" />
+	        
+	        <RelativeLayout
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content">
+	        
+	        	<CheckBox
+					android:text="CheckBox"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="@color/textcolor_question_checkbox"
+					android:paddingLeft="40dp"
+					android:paddingRight="5dp"
+					android:id="@+id/questionAnswerCheckBox3"
+					android:button="@android:color/transparent"
+					android:background="@drawable/question_checkbox_background"
+					android:minHeight="44dp"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+					
+				<RelativeLayout
+					android:id="@+id/questionAnswerLinearLayoutWrapper"
+					android:orientation="horizontal"
+					android:layout_alignTop="@+id/questionAnswerCheckBox3"
+		        	android:layout_alignBottom="@+id/questionAnswerCheckBox3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					
+					<TextView
+						android:id="@+id/questionAnswerTextView3"
+		        		android:text="C"
+		        		android:textSize="30sp"
+		        		android:textStyle="bold"
+		        		android:textColor="@android:color/darker_gray"
+		        		android:layout_centerVertical="true"
+		        		android:layout_marginLeft="6dp"
+		        		android:layout_marginRight="6dp"
+		        		android:layout_width="wrap_content"
+		        		android:layout_height="wrap_content" />
+		        		
+		        	<ImageView
+						android:id="@+id/questionAnswerImageView3"
+						android:src="@drawable/icon_richtig"
+						android:visibility="gone"
+						android:layout_centerVertical="true"
+						android:layout_marginLeft="2dp"
+						android:layout_width="27dp"
+						android:layout_height="31dp" />
+		        		
+		        	<View
+		        		android:background="@android:color/darker_gray"
+		        		android:layout_toRightOf="@+id/questionAnswerTextView3"
+		        		android:layout_width="1dp"
+		        		android:layout_height="wrap_content" />
+				
+				</RelativeLayout>
+	        
+	        </RelativeLayout>
+	        
+		</LinearLayout>
+		
+		<LinearLayout 
+			android:id="@+id/questionNumberAnswerWrapper"
+			android:layout_width="fill_parent"
+	        android:layout_height="134dp"
+	        android:orientation="vertical"
+	        android:gravity="center"
+	        android:background="@drawable/lightblue_gradient_background"
+	        android:layout_alignParentBottom="true">
+	        
+			<TextView
+				android:text="TextView"
+				android:textColor="@android:color/black"
+				android:textStyle="bold"
+				android:textSize="14sp"
+				android:id="@+id/questionNumberAnswerTextView"
+				android:layout_marginBottom="8dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			
+			<LinearLayout
+				android:id="@+id/questionNumberAnswerEditTextWrapper"
+				android:orientation="horizontal"
+				android:gravity="center"
+				android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content">
+	        	
+	        	<TextView
+					android:text="X  ="
+					android:textColor="@android:color/black"
+					android:textStyle="bold"
+					android:textSize="14sp"
+					android:layout_marginRight="8dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+	        	
+	        	<EditText
+		        	android:id="@+id/questionNumberEditText"
+		        	android:layout_width="100dp"
+		        	android:layout_height="wrap_content"
+		        	android:inputType="numberDecimal" />
+		        	
+		        <ImageView 
+		        	android:id="@+id/questionNumberImageView"
+		        	android:src="@drawable/icon_richtig"
+		        	android:visibility="invisible"
+		        	android:layout_marginLeft="8dp"
+		        	android:layout_height="wrap_content"
+		        	android:layout_width="wrap_content" />
+	        	
+	        </LinearLayout>
+	        
+			<LinearLayout
+				android:id="@+id/questionNumberAnswerEditTextWrapper2"
+				android:orientation="horizontal"
+				android:gravity="center"
+				android:visibility="gone"
+				android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content">
+	        	
+	        	<TextView
+					android:text="Y  ="
+					android:textColor="@android:color/black"
+					android:textStyle="bold"
+					android:textSize="14sp"
+					android:layout_marginRight="8dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+	        	
+	        	<EditText
+		        	android:id="@+id/questionNumberEditText2"
+		        	android:layout_width="100dp"
+		        	android:layout_height="wrap_content"
+		        	android:inputType="numberDecimal" />
+		        	
+		        <ImageView 
+		        	android:id="@+id/questionNumberImageView2"
+		        	android:src="@drawable/icon_richtig"
+		        	android:visibility="invisible"
+		        	android:layout_marginLeft="8dp"
+		        	android:layout_height="wrap_content"
+		        	android:layout_width="wrap_content" />
+	        	
+	        </LinearLayout>
+	        
+		</LinearLayout>
+	
+	</LinearLayout>
+	
+</RelativeLayout>

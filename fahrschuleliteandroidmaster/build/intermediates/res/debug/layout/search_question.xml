@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="@drawable/bg_mit_gitter">
+	
+    <RelativeLayout
+    	android:focusable="true"
+    	android:focusableInTouchMode="true"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/relativeLayout1">
+    	
+        <EditText
+        	android:id="@+id/searchEditText"
+        	android:hint="@string/search_hint"
+        	android:singleLine="true"
+        	android:layout_alignParentLeft="true"
+        	android:layout_toLeftOf="@+id/button1"
+        	android:layout_width="250dp"
+        	android:layout_height="wrap_content" />
+        
+        <Button
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:onClick="clearEditText"
+        	android:text=" X "
+        	android:id="@+id/button1" />
+        	
+    </RelativeLayout>
+    
+    <ListView
+    	android:id="@android:id/list"
+    	android:layout_below="@+id/relativeLayout1"
+    	android:layout_height="fill_parent"
+    	android:layout_width="fill_parent" />
+    	
+    <TextView
+    	android:id="@android:id/text1"
+    	android:visibility="gone"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/relativeLayout1"
+    	android:text="@string/searching"
+    	android:textSize="20sp"
+    	android:textColor="@android:color/white"
+    	android:layout_width="wrap_content"
+    	android:layout_marginTop="20dp"
+    	android:layout_centerHorizontal="true" />
+    
+</RelativeLayout>
+<!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/layout/search_question.xml -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="learn_result">
+        <item quantity="one">Du hast %d Frage bearbeitet.</item>
+        <item quantity="other">Du hast %d Fragen bearbeitet.</item>
+	</plurals>
+	
+	<plurals name="hand_in_exam_dialogbox">
+        <item quantity="one">Du hast %d Frage noch nicht beantwortet. Möchtest du trotzdem abgeben?</item>
+        <item quantity="other">Du hast %d Fragen noch nicht beantwortet. Möchtest du trotzdem abgeben?</item>
+	</plurals>
+</resources>

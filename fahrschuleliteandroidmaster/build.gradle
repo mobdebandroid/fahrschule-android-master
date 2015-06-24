@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "de.freenet.pocketfahrschulelite"
+        minSdkVersion 15
+        targetSdkVersion 22
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res']
+            jniLibs.srcDirs = ['src/main/jniLibs']
+            jni.srcDirs = [] // This prevents the auto generation of Android.mk
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/GoogleAdMobAdsSdk-4.3.1.jar')
+    compile files('libs/HockeySDK-3.5.0.jar')
+    compile project(':freenetSharedLibrary')
+    compile project(':HoloGraphLibrary')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:support-v4:22.2.0'
+}

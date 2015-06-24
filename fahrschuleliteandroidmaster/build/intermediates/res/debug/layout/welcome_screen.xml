@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcomeScreenRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_mit_gitter" >
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true">
+    
+		<TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:shadowColor="@android:color/black"
+	        android:shadowDx="1.0"
+	        android:shadowDy="1.0"
+	        android:shadowRadius="1.0"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:textColor="@android:color/white"
+	        android:text="@string/welcome_title_1" />
+		
+		<LinearLayout
+		    android:id="@+id/linearLayout1"
+		    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/textView3">
+		    
+		    <TextView
+		        android:id="@+id/textView4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:shadowColor="@android:color/black"
+		        android:shadowDx="1.0"
+		        android:shadowDy="1.0"
+		        android:shadowRadius="1.0"
+		        android:textSize="24sp"
+		        android:textStyle="bold"
+	        	android:textColor="@android:color/white"
+		        android:text="Pocket Fahrschule" />
+		
+		    <TextView
+		        android:id="@+id/textView5"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="4dp"
+		        android:shadowColor="@android:color/black"
+		        android:shadowDx="1.0"
+		        android:shadowDy="1.0"
+		        android:shadowRadius="1.0"
+		        android:textSize="24sp"
+		        android:textStyle="bold"
+	        	android:textColor="#abc2e6"
+		        android:text="Lite" />
+		    
+		</LinearLayout>
+	
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:gravity="center_horizontal"
+	        android:layout_below="@+id/linearLayout1"
+	        android:layout_centerInParent="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        
+		    <ImageView
+		        android:id="@+id/imageView1"
+		        android:layout_width="268dp"
+		        android:layout_height="218dp"
+		        android:src="@drawable/anleitung_start" />
+		
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:gravity="center"
+		        android:text="@string/welcome_text_1"
+		        android:textColor="@android:color/white"
+		        android:textSize="14sp"
+		        android:textStyle="bold"
+		        android:layout_width="310dp"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/imageView1" />
+		    
+		    <TextView
+		        android:id="@+id/textView2"
+		        android:gravity="center"
+		        android:text="@string/welcome_text_2"
+		        android:textColor="@android:color/white"
+		        android:textSize="14sp"
+		        android:layout_marginTop="14dp"
+		        android:layout_width="310dp"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/textView1" />
+	    
+	    </LinearLayout>
+    
+	</RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/layout/welcome_screen.xml -->

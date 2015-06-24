@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+		
+    <ListView
+    	android:background="@drawable/bg_mit_gitter"
+    	android:layout_height="fill_parent"
+    	android:id="@+android:id/list"
+    	android:layout_width="fill_parent" />
+    	
+	<TextView
+		android:id="@+android:id/text1"
+		android:layout_height="wrap_content"
+		android:text="@string/no_tagged_questions"
+		android:textSize="20sp"
+		android:gravity="center"
+		android:textColor="@android:color/white"
+		android:layout_width="260dp"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp" />
+    	
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:angle="270"
+        android:startColor="#182340" android:endColor="#50648a" />
+</shape><!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/drawable/bg_question_checkbox_aktiv.xml -->

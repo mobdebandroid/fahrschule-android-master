@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="320dp"
+    android:layout_height="146dp"
+    android:gravity="center"
+    android:background="@drawable/bg_formel">
+	    	
+   	<TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginRight="12dp"
+    	android:id="@+id/textView2"
+    	android:text="@string/reaction_plus_break"
+    	android:textColor="#9ab2e3"
+    	android:textSize="17sp"
+    	android:textStyle="bold" />
+	
+</LinearLayout><!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/layout/formula_4.xml -->

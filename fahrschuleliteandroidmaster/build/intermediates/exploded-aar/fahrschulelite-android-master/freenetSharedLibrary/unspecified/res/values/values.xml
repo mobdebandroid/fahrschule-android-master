@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/freenetSharedLibrary/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="advertisement">Werbung</string>
+    <string name="close">Schließen</string>
+    <string name="pull_to_refresh_pull_label">Ziehen um zu aktualisieren...</string>
+    <string name="pull_to_refresh_refreshing_label">Ladevorgang läuft...</string>
+    <string name="pull_to_refresh_release_label">Loslassen um zu aktualisieren...</string>
+    <string name="pull_to_refresh_tap_label">Tap um zu aktualisieren...</string>
+</resources>

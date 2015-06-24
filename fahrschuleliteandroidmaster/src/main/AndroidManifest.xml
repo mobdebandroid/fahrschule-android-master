@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.freenet.pocketfahrschulelite"
+    android:installLocation="auto"
+    android:versionCode="20150624"
+    android:versionName="2.1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.FahrschuleApplication"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name_short"
+        android:theme="@style/PocketFahrschuleTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name_short"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainNavigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionCatalogNavigation"
+            android:screenOrientation="portrait" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainNavigation"/>
+        </activity>
+        <activity
+            android:name=".Learning"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Exam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Extras"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionCatalog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubGroupList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionList"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+            <!--android:name=".TrafficSigns"-->
+            <!--android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".Formulas"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+            <!--android:name=".BrakingDistance"-->
+            <!--android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".QuestionSheet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchQuestion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TaggedQuestions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LearningResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExamResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExamArchive"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionImage"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".StVO"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".Graph"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Impressum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LicenseClassPicker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BuyFullVersion"
+            android:screenOrientation="portrait" />
+        <activity android:name="net.hockeyapp.android.UpdateActivity" />
+
+        <!-- Track Market installs from AdMob ads -->
+        <!--<receiver-->
+            <!--android:name="com.google.ads.InstallReceiver"-->
+            <!--android:exported="true" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.android.vending.INSTALL_REFERRER" />-->
+                <!--</intent-filter>-->
+        <!--</receiver>-->
+
+    </application>
+
+</manifest>

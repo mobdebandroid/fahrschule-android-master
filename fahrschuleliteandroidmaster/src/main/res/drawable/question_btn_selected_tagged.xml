@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Non focused states -->
+<item android:state_focused="false"
+	android:state_selected="false"
+	android:state_pressed="false"
+	android:drawable="@drawable/question_btn_selected_normal_tagged" />
+	
+<item android:state_focused="false"
+	android:state_selected="true"
+	android:state_pressed="false"
+	android:drawable="@drawable/question_btn_selected_normal_tagged" />
+	
+<!-- Focused states -->
+<item android:state_focused="true"
+	android:state_selected="false"
+	android:state_pressed="false"
+	android:drawable="@drawable/question_btn_selected_highlight_tagged" />
+	
+<item android:state_focused="true"
+	android:state_selected="true"
+	android:state_pressed="false"
+	android:drawable="@drawable/question_btn_selected_highlight_tagged" />
+
+<!-- Pressed -->
+<item android:state_pressed="true"
+	android:drawable="@drawable/question_btn_selected_highlight_tagged" />
+	
+</selector>

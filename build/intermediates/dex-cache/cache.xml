@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\pre-dexed\debug\classes-648766632ab714d6b613624c820c9428cce56138.jar" />
+    </item>
+    <item
+        jar="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\exploded-aar\fahrschulelite-android-master\freenetSharedLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c70271829f32b303b9acbf575762ffd5ce03210">
+        <dex dex="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\pre-dexed\debug\classes-f43a2619aee488eaf56ccf2f6b99b41ecf777fa3.jar" />
+    </item>
+    <item
+        jar="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\libs\HockeySDK-3.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1efe66384574e45d281dcbf0cc2986cd9ebeddef">
+        <dex dex="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\pre-dexed\debug\HockeySDK-3.5.0-243c45c62af77f2775d0edcd040bca163a5991b2.jar" />
+    </item>
+    <item
+        jar="D:\android_dev\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-5ee5476c5785dbd521fb729975f7e70f11df986f.jar" />
+    </item>
+    <item
+        jar="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-3250dc64afdb05bd52f2720e6d6d992c46832db1.jar" />
+    </item>
+    <item
+        jar="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\exploded-aar\fahrschulelite-android-master\HoloGraphLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a846060cd4c94e6cab0a4847482ef4961f3205eb">
+        <dex dex="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\pre-dexed\debug\classes-4f4e633801fbe89c1fc73b9a303b7588c6c4e90d.jar" />
+    </item>
+    <item
+        jar="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\libs\GoogleAdMobAdsSdk-4.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6f35996c7c14b39ef233054a19483f9fed8a8bf3">
+        <dex dex="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-4.3.1-e0354e950c7dba0296cb6220c04d4cd6d498a33a.jar" />
+    </item>
+    <item
+        jar="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\LindenValley\Mobicom_03062015\project\studio\fahrschulelite-android-master\fahrschuleliteandroidmaster\build\intermediates\pre-dexed\debug\classes-cb4803c61390194d9fb89182ee26249087c6d4d2.jar" />
+    </item>
+
+</items>

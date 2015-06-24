@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/select_pager" />
+    <item android:state_focused="true" android:color="@color/press_pager" />
+    <item android:state_pressed="true" android:color="@color/press_pager" />
+    <item android:color="@color/tabsScrollColor" />
+</selector>
+<!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/color/view_pager_selector.xml -->

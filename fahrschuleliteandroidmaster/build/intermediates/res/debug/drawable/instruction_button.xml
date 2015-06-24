@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="#727D94"
+                android:endColor="#727D94"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="#9CB3DF" />
+            <corners
+                android:radius="8dp" />
+            <padding
+                android:left="10dp"
+                android:top="0dp"
+                android:right="10dp"
+                android:bottom="0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#111111"
+                android:endColor="#111111"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="#9CB3DF" />
+            <corners
+                android:radius="8dp" />
+            <padding
+                android:left="10dp"
+                android:top="0dp"
+                android:right="10dp"
+                android:bottom="0dp" />
+        </shape>
+    </item>
+</selector><!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/drawable/instruction_button.xml -->

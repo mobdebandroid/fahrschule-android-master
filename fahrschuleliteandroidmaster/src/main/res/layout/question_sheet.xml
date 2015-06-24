@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<include
+		android:id="@+id/app_bar"
+		layout="@layout/app_bar">
+	</include>
+
+	<de.freenet.pocketfahrschulelite.widget.CustomGallery
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layout_above="@+id/questionSheetLinearLayout"
+		android:spacing="20dp"
+		android:fadingEdge="none"
+		android:id="@+id/questionSheetGallery"
+		android:layout_below="@+id/app_bar" />
+	
+	<RelativeLayout
+		android:layout_height="44dp"
+		android:layout_width="fill_parent"
+		android:id="@+id/questionSheetLinearLayout"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/black_gradient_background">
+		
+		<ImageButton
+			android:src="@drawable/ic_pfeil_links"
+			android:background="@android:color/transparent"
+			android:id="@+id/questionSheetLeftImageButton"
+			android:onClick="changeQuestion"
+			android:layout_alignParentLeft="true"
+			android:layout_width="50dp"
+			android:layout_height="fill_parent" />
+		
+		<Button
+			android:id="@+id/questionSheetSolutionButton"
+			android:text="@string/solution"
+			android:onClick="solutionButtonClick"
+			android:layout_centerInParent="true"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content" />
+			
+		<ImageButton
+			android:src="@drawable/ic_pfeil_rechts"
+			android:background="@android:color/transparent"
+			android:id="@+id/questionSheetRightImageButton"
+			android:onClick="changeQuestion"
+			android:layout_alignParentRight="true"
+			android:layout_width="50dp"
+			android:layout_height="fill_parent" />
+		
+	</RelativeLayout>
+	
+	<RelativeLayout
+	    android:id="@+id/questionsOverviewRelativeLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="161dp"
+	    android:clickable="true"
+	    android:visibility="gone"
+	    android:layout_alignParentBottom="true">
+		
+	    <Button
+		    android:id="@+id/mainGroupButton"
+		    android:layout_width="110dp"
+		    android:layout_height="30dp"
+		    android:background="@drawable/question_tab_selected"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:textColor="@android:color/white"
+		    android:textStyle="bold"
+		    android:onClick="switchQuestionTab"
+		    android:text="@string/base_material" />
+	    
+	    <Button
+		    android:id="@+id/additionalGroupButton"
+		    android:layout_width="60dp"
+		    android:layout_height="30dp"
+		    android:layout_marginLeft="1dp"
+		    android:background="@drawable/question_tab"
+		    android:layout_toRightOf="@+id/mainGroupButton"
+		    android:layout_alignParentTop="true"
+		    android:textStyle="bold"
+		    android:onClick="switchQuestionTab"
+		    android:text="B" />
+		
+	    <include layout="@layout/select_btns_main" />
+	    
+	    <include layout="@layout/select_btns_additional" android:visibility="gone" />
+		
+		<Button
+		    android:onClick="toggleQuestionOverview"
+		    android:layout_width="29dp"
+		    android:layout_height="33dp"
+		    android:id="@+id/hideQuestionsOverviewButton"
+		    android:background="@drawable/btn_pfeil_down"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginRight="8dp"
+		    android:layout_marginBottom="8dp" />
+	    
+	</RelativeLayout>
+	
+</RelativeLayout>

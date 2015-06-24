@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.freenet.library.test" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="4" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for de.freenet.library.test"
+        android:targetPackage="de.freenet.library.test" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+
+        <activity android:name="de.freenet.library.SplashAd" />
+
+        <service android:name="org.openudid.OpenUDID_service" >
+            <intent-filter>
+                <action android:name="org.openudid.GETUDID" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

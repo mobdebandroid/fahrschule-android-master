@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_mit_gitter">
+    
+    <TextView
+    	android:layout_height="wrap_content"
+    	android:layout_width="300dp"
+    	android:gravity="center"
+    	android:layout_marginTop="8dp"
+    	android:layout_centerHorizontal="true"
+    	android:textColor="#97acd9"
+    	android:textSize="18sp"
+    	android:textStyle="bold"
+    	android:shadowColor="@android:color/black"
+    	android:shadowDx="1.0"
+    	android:shadowDy="1.0"
+    	android:shadowRadius="1.0"
+    	android:id="@+id/formulasTitleTextView"
+    	android:text="TextView" />
+    	
+    <TextView
+    	android:layout_height="153dp"
+    	android:id="@+id/formulasDescTextView"
+    	android:text="TextView"
+    	android:textSize="14sp"
+    	android:textColor="@android:color/white"
+    	android:shadowColor="@android:color/black"
+    	android:shadowDx="1.0"
+    	android:shadowDy="1.0"
+    	android:shadowRadius="1.0"
+    	android:gravity="center"
+    	android:layout_width="302dp"
+    	android:layout_below="@+id/formulasTitleTextView"
+    	android:layout_centerHorizontal="true" />
+    
+    <de.freenet.pocketfahrschulelite.widget.CustomGallery
+    	android:spacing="20dp"
+    	android:id="@+id/formulasGallery"
+    	android:layout_below="@+id/formulasDescTextView"
+    	android:layout_centerInParent="true"
+    	android:layout_width="fill_parent"
+    	android:layout_height="146dp" />
+    
+    <RelativeLayout
+		android:layout_height="44dp"
+		android:layout_width="fill_parent"
+		android:id="@+id/questionSheetLinearLayout"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/black_gradient_background">
+		
+		<ImageButton
+			android:src="@drawable/ic_pfeil_links"
+			android:background="@android:color/transparent"
+			android:id="@+id/formulasSheetLeftImageButton"
+			android:onClick="changeFormula"
+			android:layout_alignParentLeft="true"
+			android:layout_width="50dp"
+			android:layout_height="fill_parent" />
+			
+		<ImageButton
+			android:src="@drawable/ic_pfeil_rechts"
+			android:background="@android:color/transparent"
+			android:id="@+id/formulasSheetRightImageButton"
+			android:onClick="changeFormula"
+			android:layout_alignParentRight="true"
+			android:layout_width="50dp"
+			android:layout_height="fill_parent" />
+		
+	</RelativeLayout>
+    
+</RelativeLayout>

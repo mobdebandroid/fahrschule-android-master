@@ -1,0 +1,2 @@
+include ':freenetSharedLibrary', ':library', ':HoloGraphLibrary'
+include ':fahrschuleliteandroidmaster'

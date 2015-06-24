@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <ImageView
+    	android:src="@drawable/splashscreen"
+    	android:layout_height="fill_parent"
+    	android:layout_width="fill_parent"
+    	android:scaleType="fitXY" />
+    
+    <TextView
+        android:id="@+id/debugTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="24sp"
+        android:text="DEBUG" />
+    	
+</RelativeLayout><!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/layout/splash.xml -->

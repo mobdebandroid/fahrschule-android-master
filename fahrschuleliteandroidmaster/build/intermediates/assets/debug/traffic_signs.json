@@ -1,0 +1,398 @@
+[
+    {
+        "text": "Achtung: Gefahrstelle", 
+        "image": "101.png"
+    }, 
+    {
+        "text": "Achtung: Kreuzung oder Einm\u00fcndung mit Vorfahrt von rechts", 
+        "image": "102.png"
+    }, 
+    {
+        "text": "Achtung: Kurve", 
+        "image": "103-10.png"
+    }, 
+    {
+        "text": "Achtung: Doppelkurve", 
+        "image": "105-10.png"
+    }, 
+    {
+        "text": "Achtung: Gef\u00e4lle", 
+        "image": "108-71.png"
+    }, 
+    {
+        "text": "Achtung: Steigung", 
+        "image": "110-71.png"
+    }, 
+    {
+        "text": "Achtung: unebene Fahrbahn", 
+        "image": "112.png"
+    }, 
+    {
+        "text": "Achtung: Schleudergefahr bei N\u00e4sse oder Schmutz", 
+        "image": "114.png"
+    }, 
+    {
+        "text": "Achtung: Seitenwind", 
+        "image": "117-10.png"
+    }, 
+    {
+        "text": "Achtung: verengte Fahrbahn", 
+        "image": "120.png"
+    }, 
+    {
+        "text": "Achtung: einseitig verengte Fahrbahn", 
+        "image": "121-10.png"
+    }, 
+    {
+        "text": "Achtung: Baustelle", 
+        "image": "123.png"
+    }, 
+    {
+        "text": "Achtung: Stau", 
+        "image": "124.png"
+    }, 
+    {
+        "text": "Achtung: Gegenverkehr", 
+        "image": "125.png"
+    }, 
+    {
+        "text": "Achtung: Lichtzeichenanlage", 
+        "image": "131.png"
+    }, 
+    {
+        "text": "Achtung: Fu\u00dfg\u00e4nger", 
+        "image": "133-10.png"
+    }, 
+    {
+        "text": "Achtung: Kinder", 
+        "image": "136-10.png"
+    }, 
+    {
+        "text": "Achtung: Radfahrer kreuzen", 
+        "image": "138-10.png"
+    }, 
+    {
+        "text": "Achtung: Wildwechsel", 
+        "image": "142-10.png"
+    }, 
+    {
+        "text": "Achtung: Bahn\u00fcbergang mit Schranken oder Halbschranken", 
+        "image": "150.png"
+    }, 
+    {
+        "text": "Achtung: unbeschrankter Bahn\u00fcbergang", 
+        "image": "151.png"
+    }, 
+    {
+        "text": "Achtung: Vorfahrt", 
+        "image": "301.png"
+    }, 
+    {
+        "text": "Zweistreifige Bake: etwa 160 m vor dem Bahn\u00fcbergang", 
+        "image": "159-10.png"
+    }, 
+    {
+        "text": "Einstreifige Bake: etwa 80 m vor dem Bahn\u00fcbergang", 
+        "image": "162-10.png"
+    }, 
+    {
+        "text": "Fahrzeugf\u00fchrer m\u00fcssen dem Schienenverkehr Vorrang gew\u00e4hren.", 
+        "image": "201-50.png"
+    }, 
+    {
+        "text": "Fahrzeugf\u00fchrer m\u00fcssen dem Schienenverkehr Vorrang gew\u00e4hren. Bahnstrecke hat eine Spannung f\u00fchrende Fahrleitung.", 
+        "image": "201-51.png"
+    }, 
+    {
+        "text": "Vorfahrt gew\u00e4hren!", 
+        "image": "205.png"
+    }, 
+    {
+        "text": "Halt! Vorfahrt gew\u00e4hren!", 
+        "image": "206.png"
+    }, 
+    {
+        "text": "Vorrang des Gegenverkehrs", 
+        "image": "208.png"
+    }, 
+    {
+        "text": "vorgeschriebene Fahrtrichtung - links", 
+        "image": "209-10.png"
+    }, 
+    {
+        "text": "vorgeschriebene Fahrtrichtung - geradeaus", 
+        "image": "209-30.png"
+    }, 
+    {
+        "text": "vorgeschriebene Fahrtrichtung - rechts und links", 
+        "image": "209-31.png"
+    }, 
+    {
+        "text": "vorgeschriebene Fahrtrichtung - links", 
+        "image": "211-10.png"
+    }, 
+    {
+        "text": "vorgeschriebene Fahrtrichtung - geradeaus und links", 
+        "image": "214-10.png"
+    }, 
+    {
+        "text": "Kreisverkehr: Ausgenommen von dem Verbot zum \u00fcberfahren der Mittelinsel sind nur Fahrzeuge, denen wegen ihrer Abmessungen das Befahren sonst nicht m\u00f6glich w\u00e4re.", 
+        "image": "215.png"
+    }, 
+    {
+        "text": "vorgeschriebene Vorbeifahrt - links vorbei", 
+        "image": "222-10.png"
+    }, 
+    {
+        "text": "Haltestelle f\u00fcr Stra\u00dfenbahnen oder Linienbusse", 
+        "image": "224-50.png"
+    }, 
+    {
+        "text": "Haltestelle f\u00fcr Schulbusse", 
+        "image": "224-51.png"
+    }, 
+    {
+        "text": "Taxenstand", 
+        "image": "229.png"
+    }, 
+    {
+        "text": "Sonderweg Radfahrer", 
+        "image": "237.png"
+    }, 
+    {
+        "text": "Sonderweg Reiter", 
+        "image": "238.png"
+    }, 
+    {
+        "text": "Sonderweg Fu\u00dfg\u00e4nger", 
+        "image": "239.png"
+    }, 
+    {
+        "text": "Gemeinsamer Geh- und Radweg: Radfahrer d\u00fcrfen nicht die Fahrbahn, sondern m\u00fcssen den gemeinsamen Geh- und Radweg benutzen (Radwegbenutzungspflicht)", 
+        "image": "240.png"
+    }, 
+    {
+        "text": "Getrennter Rad- und Gehweg: Radfahrer d\u00fcrfen nicht die Fahrbahn, sondern m\u00fcssen den Radweg des getrennten Rad- und Gehweges benutzen (Radwegbenutzungspflicht)", 
+        "image": "241-30.png"
+    }, 
+    {
+        "text": "Beginn eines Fu\u00dfg\u00e4ngerbereichs", 
+        "image": "242.png"
+    }, 
+    {
+        "text": "Bussonderfahrstreifen", 
+        "image": "245.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Fahrzeuge aller Art", 
+        "image": "250.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Kraftwagen und sonstige mehrspurige Kraftfahrzeuge", 
+        "image": "251.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Kraftfahrzeuge mit einem zul\u00e4ssigen Gesamtgewicht \u00fcber 3,5t, einschlie\u00dflich ihrer Anh\u00e4nger, und Zugmaschinen, ausgenommen Personenkraftwagen und Kraftomnibusse", 
+        "image": "253.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Radfahrer", 
+        "image": "254.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Kraftr\u00e4der, auch mit Beiwagen, Kleinkraftr\u00e4der und Mofas", 
+        "image": "255.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Mofas", 
+        "image": "256.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Fu\u00dfg\u00e4nger", 
+        "image": "259.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr kennzeichnungspflichtige Kraftfahrzeuge mit gef\u00e4hrlichen G\u00fctern", 
+        "image": "261.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Fahrzeuge \u00fcber angegebene Breite einschlie\u00dflich Ladung", 
+        "image": "264.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Fahrzeuge \u00fcber angegebene H\u00f6he einschlie\u00dflich Ladung", 
+        "image": "265.png"
+    }, 
+    {
+        "text": "Verbot f\u00fcr Fahrzeuge und Z\u00fcge \u00fcber angegebene L\u00e4nge einschlie\u00dflich Ladung", 
+        "image": "266.png"
+    }, 
+    {
+        "text": "Verbot der Einfahrt", 
+        "image": "267.png"
+    }, 
+    {
+        "text": "Schneeketten vorgeschrieben", 
+        "image": "268.png"
+    }, 
+    {
+        "text": "Beginn eines Verkehrsverbots zur Verminderung sch\u00e4dlicher Luftverunreinigungen in einer Zone", 
+        "image": "270.1.png"
+    }, 
+    {
+        "text": "Ende eines Verkehrsverbots zur Verminderung sch\u00e4dlicher Luftverunreinigungen in einer Zone", 
+        "image": "270.2.png"
+    }, 
+    {
+        "text": "Wendeverbot", 
+        "image": "272.png"
+    }, 
+    {
+        "text": "Verbot des Fahrens ohne einen Mindestabstand", 
+        "image": "273.png"
+    }, 
+    {
+        "text": "Beginn der Zone mit zul\u00e4ssiger H\u00f6chstgeschwindigkeit 30 km/h", 
+        "image": "274-1-50.png"
+    }, 
+    {
+        "text": "Zul\u00e4ssige H\u00f6chstgeschwindigkeit", 
+        "image": "274-53.png"
+    }, 
+    {
+        "text": "Vorgeschriebene Mindestgeschwindigkeit", 
+        "image": "275.png"
+    }, 
+    {
+        "text": "\u00fcberholverbot f\u00fcr Kraftfahrzeuge aller Art", 
+        "image": "276.png"
+    }, 
+    {
+        "text": "\u00fcberholverbot f\u00fcr Kraftfahrzeuge mit einem zul\u00e4ssigen Gesamtgewicht \u00fcber 3,5t, einschlie\u00dflich ihrer Anh\u00e4nger, und von ausgenommen Personenkraftwagen und Kraftomnibusse", 
+        "image": "277.png"
+    }, 
+    {
+        "text": "Ende der zul\u00e4ssigen H\u00f6chstgeschwindigkeit", 
+        "image": "278-53.png"
+    }, 
+    {
+        "text": "Ende s\u00e4mtlicher Streckenverbote", 
+        "image": "282.png"
+    }, 
+    {
+        "text": "Absolutes Haltverbot", 
+        "image": "283-50.png"
+    }, 
+    {
+        "text": "Eingeschr\u00e4nktes Haltverbot", 
+        "image": "286-50.png"
+    }, 
+    {
+        "text": "Vorfahrtstra\u00dfe (Fahrzeugf\u00fchrer d\u00fcrfen au\u00dferhalb geschlossener Ortschaften auf Fahrbahnen von Vorfahrtstra\u00dfen nicht parken.)", 
+        "image": "306.png"
+    }, 
+    {
+        "text": "Ende der Vorfahrtstra\u00dfe", 
+        "image": "307.png"
+    }, 
+    {
+        "text": "Vorrang vor dem Gegenverkehr", 
+        "image": "308.png"
+    }, 
+    {
+        "text": "Ortstafel: Beginn einer geschlossene Ortschaft. Zul\u00e4ssige H\u00f6chstgeschwindigkeit 50 km/h.", 
+        "image": "310-50.png"
+    }, 
+    {
+        "text": "Parken halb auf Gehwegen: erlaubt Fahrzeugen mit einem zul. Gesamtgewicht bis 2,8 t das Parken auf Gehwegen. Im Zeichen wird bildl. angeordnet, wie die Fahrzeuge aufzustellen sind.", 
+        "image": "315-50.png"
+    }, 
+    {
+        "text": "Beginn eines verkehrsberuhigten Bereichs", 
+        "image": "325.png"
+    }, 
+    {
+        "text": "Ende eines verkehrsberuhigten Bereichs", 
+        "image": "326-50.png"
+    }, 
+    {
+        "text": "Tunnel", 
+        "image": "327.png"
+    }, 
+    {
+        "text": "Nothalte- und Pannenbucht", 
+        "image": "328.png"
+    }, 
+    {
+        "text": "Autobahn", 
+        "image": "330.png"
+    }, 
+    {
+        "text": "Kraftfahrstra\u00dfe", 
+        "image": "331.png"
+    }, 
+    {
+        "text": "Ende der Autobahn", 
+        "image": "334.png"
+    }, 
+    {
+        "text": "Ende der Kraftfahrstra\u00dfe", 
+        "image": "336.png"
+    }, 
+    {
+        "text": "Fu\u00dfg\u00e4nger\u00fcberweg", 
+        "image": "350-10.png"
+    }, 
+    {
+        "text": "Sackgasse", 
+        "image": "357.png"
+    }, 
+    {
+        "text": "Erste Hilfe", 
+        "image": "358.png"
+    }, 
+    {
+        "text": "Richtgeschwindigkeit", 
+        "image": "380-52.png"
+    }, 
+    {
+        "text": "Zollstelle", 
+        "image": "392.png"
+    }, 
+    {
+        "text": "Laternenring: Kennzeichnung von Laternen, die nicht die ganze Nacht leuchten (innerhalb geschlossener Ortschaften)", 
+        "image": "394-50.png"
+    }, 
+    {
+        "text": "Nummernschild f\u00fcr Bundesstra\u00dfen", 
+        "image": "401.png"
+    }, 
+    {
+        "text": "Nummernschild f\u00fcr Autobahnen", 
+        "image": "405.png"
+    }, 
+    {
+        "text": "Ank\u00fcndigungstafel auf Autobahnen", 
+        "image": "448.png"
+    }, 
+    {
+        "text": "Bedarfsumleitung", 
+        "image": "460-30.png"
+    }, 
+    {
+        "text": "Umlenkungspfeil: Kennzeichnung von Alternativstrecken auf Autobahnen, deren Benutzung im Bedarfsfall empfohlen wird (Streckenempfehlung)", 
+        "image": "467.png"
+    }, 
+    {
+        "text": "Gr\u00fcnpfeil: Nach dem Halten darf bei Rot vorsichtig rechts abgebogen werden", 
+        "image": "720.png"
+    }, 
+    {
+        "text": "Verlauf der Vorfahrtstra\u00dfe an Kreuzungen", 
+        "image": "1002-10.png"
+    }, 
+    {
+        "text": "Schlechter Fahrbahnrand", 
+        "image": "1052-38.png"
+    }
+]

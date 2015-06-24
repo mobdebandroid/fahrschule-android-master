@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/white">
+	<!--android:background="@drawable/bg_mit_gitter"-->
+
+	<RelativeLayout
+		android:layout_centerInParent="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout">
+
+		<!--<de.freenet.pocketfahrschulelite.widget.KanisterView-->
+			<!--android:layout_height="250dp"-->
+			<!--android:layout_width="320dp"-->
+			<!--android:id="@+id/learningKanisterImageView"-->
+			<!--android:layout_centerHorizontal="true" />-->
+		<com.echo.holographlibrary.PieGraph
+			android:layout_marginTop="30dp"
+			android:layout_marginBottom="30dp"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:id="@+id/learningKanisterImageView"
+			android:layout_centerHorizontal="true">
+        </com.echo.holographlibrary.PieGraph>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="@string/beantwortet"
+			android:textColor="@color/verbleibend"
+			android:id="@+id/textView"
+			android:layout_alignBottom="@+id/learningKanisterImageView"
+			android:layout_centerHorizontal="true"
+			android:layout_marginBottom="75dp" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="25%"
+			android:textColor="@color/verbleibend"
+			android:id="@+id/mBeanwortet"
+			android:layout_above="@+id/textView"
+			android:layout_centerHorizontal="true" />
+
+		<LinearLayout
+        android:id="@+id/learningLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/learningKanisterImageView">
+
+        <!--<ImageView-->
+			<!--android:src="@drawable/icon_info_gruen"-->
+			<!--android:layout_height="wrap_content"-->
+			<!--android:layout_width="wrap_content"-->
+			<!--android:id="@+id/imageView1" />-->
+			<!-- -->
+			<!--<TextView-->
+			<!--android:text="@string/correct"-->
+			<!--android:id="@+id/textView1"-->
+			<!--android:textSize="14sp"-->
+			<!--android:textColor="#abc2e6"-->
+			<!--android:layout_width="wrap_content"-->
+			<!--android:layout_height="wrap_content"-->
+			<!--android:layout_marginLeft="8dp" />-->
+			<!-- -->
+			<!--<ImageView-->
+			<!--android:src="@drawable/icon_info_rot"-->
+			<!--android:layout_height="wrap_content"-->
+			<!--android:layout_width="wrap_content"-->
+			<!--android:layout_marginLeft="22dp"-->
+			<!--android:id="@+id/imageView1" />-->
+			<!-- -->
+			<!--<TextView-->
+			<!--android:text="@string/faulty"-->
+			<!--android:id="@+id/textView1"-->
+			<!--android:textSize="14sp"-->
+			<!--android:textColor="#abc2e6"-->
+			<!--android:layout_width="wrap_content"-->
+			<!--android:layout_height="wrap_content"-->
+			<!--android:layout_marginLeft="8dp" />-->
+			<!-- -->
+			<!--<ImageView-->
+			<!--android:src="@drawable/icon_info_blau"-->
+			<!--android:layout_height="wrap_content"-->
+			<!--android:layout_width="wrap_content"-->
+			<!--android:layout_marginLeft="22dp"-->
+			<!--android:id="@+id/imageView1" />-->
+			<!-- -->
+			<!--<TextView-->
+			<!--android:text="@string/remaining"-->
+			<!--android:id="@+id/textView1"-->
+			<!--android:textSize="14sp"-->
+			<!--android:textColor="#abc2e6"-->
+			<!--android:layout_width="wrap_content"-->
+			<!--android:layout_height="wrap_content"-->
+			<!--android:layout_marginLeft="8dp" />-->
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:background="@drawable/richtige_circle"
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:layout_margin="10dp">
+
+				<TextView
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text=""
+					android:id="@+id/mRightige"
+					android:layout_gravity="center"
+					android:layout_marginTop="20dp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:text="@string/rightige"
+					android:id="@+id/textView9"
+					android:layout_gravity="center" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:background="@drawable/falsch_circle"
+				android:layout_margin="10dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text=""
+					android:id="@+id/mFalsch"
+					android:layout_gravity="center"
+					android:layout_marginTop="20dp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:text="@string/falsch"
+					android:id="@+id/textView11"
+					android:layout_gravity="center" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:background="@drawable/verbleibend_circle"
+				android:layout_margin="10dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text=""
+					android:id="@+id/mVerbleibend"
+					android:layout_gravity="center"
+					android:layout_marginTop="20dp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:text="@string/verbleibend"
+					android:id="@+id/textView13"
+					android:layout_gravity="center" />
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_marginTop="30dp"
+			android:layout_below="@+id/learningLinearLayout"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="250dp"
+				android:layout_height="45dp"
+				android:text="@string/to_question_catalog"
+				android:textColor="@color/accentColor"
+				android:id="@+id/learningButton"
+				android:layout_gravity="center_horizontal"
+				android:background="@drawable/button_blank"/>
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/layout/learning.xml -->

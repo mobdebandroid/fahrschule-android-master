@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg_gitter_landscape">
+	
+	<View
+		android:id="@+id/graphXAxis"
+		android:layout_toRightOf="@+id/graphYAxis"
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:layout_marginTop="280dp"
+		android:background="@drawable/trenner" />
+		
+	<de.freenet.pocketfahrschulelite.widget.HorizontalListView
+		android:id="@+android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignBottom="@+id/graphYAxis"
+		android:layout_toRightOf="@+id/graphYAxis" />
+	
+	<TextView
+		android:id="@+id/graphPointsTextView"
+		android:text="@string/points_graph"
+		android:textColor="@android:color/white"
+		android:textSize="16sp"
+		android:layout_marginLeft="6dp"
+		android:layout_marginTop="14dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<View
+		android:id="@+id/graphYAxis"
+		android:layout_below="@+id/graphPointsTextView"
+		android:layout_width="2dp"
+		android:layout_height="270dp"
+		android:background="@drawable/trenner_90"
+		android:layout_marginLeft="28dp" />
+	
+</RelativeLayout><!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/layout/graph.xml -->

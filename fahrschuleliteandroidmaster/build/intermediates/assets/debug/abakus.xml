@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Grafzahl Tracking URLs</comment>
+	<entry key="A1">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	
+	<entry key="B2">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/lernen_&lt;klassen_id&gt;/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="B3">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/lernen_&lt;klassen_id&gt;/katalog/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="B4.1-6">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/lernen_&lt;klassen_id&gt;/katalog/themenbereich/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="B5.1-n">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/lernen_&lt;klassen_id&gt;/katalog/fragenbereich/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="B6.1-n">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/lernen_&lt;klassen_id&gt;/fragen/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="B7">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/lernen_&lt;klassen_id&gt;/markierte_fragen/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	
+	<entry key="C2">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/pruefung_&lt;klassen_id&gt;/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="C3.1-30">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/pruefung_&lt;klassen_id&gt;/fragen/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="C4">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/pruefung_&lt;klassen_id&gt;/ergebnis/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="C5">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/pruefung_&lt;klassen_id&gt;/zusammenfassung&lt;klassen_id&gt;/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="C6">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/pruefung_&lt;klassen_id&gt;/archiv/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="C7">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/pruefung_&lt;klassen_id&gt;/graph/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	
+	<entry key="D2">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/einstellungen/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="D3">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/einstellungen/impressum/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="D4">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/einstellungen/klasse/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	
+	<entry key="E2">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/extras/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="E3.1">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/extras/anleitung/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="E3.2">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/extras/formelsammlung/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="E3.3">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/extras/verkehrszeichen/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="E3.4">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/extras/stvo/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>
+	<entry key="E3.5">http://abakus.mobil.freenet.de/cgi-bin/ivw/CP/freenet_mobil/apps/android/fahrschule_lite/&lt;versions_nr&gt;/extras/bremswegberechner/index.html?rd=&lt;randomValue&gt;&amp;pt022ref=&lt;Referrer&gt;</entry>	
+</properties>

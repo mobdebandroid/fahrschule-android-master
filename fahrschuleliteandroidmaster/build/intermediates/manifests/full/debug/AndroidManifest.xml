@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.freenet.pocketfahrschulelite"
+    android:installLocation="auto"
+    android:versionCode="20150624"
+    android:versionName="2.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="de.freenet.pocketfahrschulelite.app.FahrschuleApplication"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name_short"
+        android:theme="@style/PocketFahrschuleTheme" >
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Splash"
+            android:label="@string/app_name_short"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.MainNavigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.QuestionCatalogNavigation"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainNavigation" />
+        </activity>
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Learning"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Exam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Extras"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.QuestionCatalog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.SubGroupList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.QuestionList"
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
+        <!-- android:name=".TrafficSigns" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Formulas"
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
+        <!-- android:name=".BrakingDistance" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.QuestionSheet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.SearchQuestion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.TaggedQuestions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.LearningResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.ExamResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.ExamArchive"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.QuestionImage"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.StVO"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Graph"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.Impressum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.LicenseClassPicker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="de.freenet.pocketfahrschulelite.BuyFullVersion"
+            android:screenOrientation="portrait" />
+        <activity android:name="net.hockeyapp.android.UpdateActivity" />
+
+        <!-- Track Market installs from AdMob ads -->
+        <!-- <receiver -->
+        <!-- android:name="com.google.ads.InstallReceiver" -->
+        <!-- android:exported="true" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <activity android:name="de.freenet.library.SplashAd" />
+
+        <service android:name="org.openudid.OpenUDID_service" >
+            <intent-filter>
+                <action android:name="org.openudid.GETUDID" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

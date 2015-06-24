@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButton" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/standard_button</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:height">45dp</item>
+        <item name="android:width">300dp</item>
+        <item name="android:maxHeight">45dp</item>
+        <item name="android:maxWidth">300dp</item>
+    </style>
+
+    <!-- NEW -->
+    <style name="FloatingActionButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/richtige_circle</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+    <style name="PocketFahrschuleTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primaryColorDark</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+    <style name="MyCustomToolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">@color/accentColor</item>
+    </style>
+    <style name="MyCustomMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">@color/accentColor</item>
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#ff000000</item>
+    </style>
+
+    <!--<style name="PocketFahrschuleTheme" parent="android:Theme">-->
+        <!--<item name="android:windowTitleSize">40dip</item>-->
+        <!--<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>-->
+    <!--</style>-->
+
+</resources>

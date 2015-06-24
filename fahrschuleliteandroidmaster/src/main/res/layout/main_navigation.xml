@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<include
+		android:id="@+id/app_bar"
+		layout="@layout/app_bar">
+	</include>
+
+	<LinearLayout
+		android:id="@+id/sliding_layout"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/app_bar"
+		android:layout_centerHorizontal="true">
+
+		<de.freenet.pocketfahrschulelite.sliding.SlidingTabLayout
+			android:id="@+id/sliding_tabs"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/primaryColor"/>
+
+	</LinearLayout>
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/viewpager"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/sliding_layout">
+
+		<RelativeLayout
+			android:id="@+id/mainNavigationRelativeLayout"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<LinearLayout
+				android:id="@+id/mainNavigationLinearLayout"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_alignParentTop="true"
+				android:orientation="vertical">
+
+				<!--<android.support.v4.view.PagerTitleStrip-->
+					<!--android:layout_width="fill_parent"-->
+					<!--android:layout_height="wrap_content"-->
+					<!--android:id="@android:id/tabs" />-->
+
+				<FrameLayout
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:id="@android:id/tabcontent">
+
+				</FrameLayout>
+
+			</LinearLayout>
+
+			<Button
+				android:id="@+id/bannerButton"
+				android:background="@drawable/banner_vollbersion"
+				android:layout_width="320dp"
+				android:layout_height="50dp"
+				android:layout_centerHorizontal="true"
+				android:layout_alignParentBottom="true"
+				android:visibility="gone"
+				android:onClick="bannerClicked" />
+
+		</RelativeLayout>
+	</android.support.v4.view.ViewPager>
+
+</RelativeLayout>

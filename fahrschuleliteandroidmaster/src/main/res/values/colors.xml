@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="official_exam_light_green">#d1f7d8</color>
+    <color name="official_exam_dark_green">#2e9143</color>
+    <color name="official_exam_darker_green">#005600</color>
+    <color name="official_exam_dark_red">#9d0300</color>
+    <color name="official_exam_dark_blue">#003f83</color>
+
+
+    <color name="primaryColor">#e0e0e0</color>
+    <color name="primaryColorDark">#bdbdbd</color>
+    <color name="accentColor">#eb7571</color>
+    <color name="tabsScrollColor">#ababab</color>
+    <color name="press_pager">#ababab</color>
+    <color name="select_pager">#212121</color>
+    <color name="indicator_pager">#eb7571</color>
+    <color name="richtige">#c0ca33</color>
+    <color name="falsch">#eb7571</color>
+    <color name="verbleibend">#616161</color>
+    <color name="header_section">#ababab</color>
+
+</resources>

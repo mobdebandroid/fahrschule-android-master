@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg_extras">
+	
+    <LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:id="@+id/linearLayout7">
+		
+        <LinearLayout
+			android:orientation="horizontal"
+	    	android:id="@+id/linearLayout7"
+	    	android:layout_height="44dp"
+	    	android:layout_width="252dp"
+	    	android:focusable="true"
+	    	android:gravity="center_vertical"
+	    	android:background="@drawable/button_extras"
+	    	android:onClick="clickBuyFullVersion">
+	    	
+	    	<ImageView 
+	    		android:src="@drawable/icon_kaufen"
+	    		android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="6dp" />
+				
+	    	<TextView
+	    		android:text="@string/buy_full_version"
+	    		android:textSize="20sp"
+	    		android:textStyle="bold"
+	    		android:textColor="@android:color/white"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="10dp" />
+			
+		</LinearLayout>
+    
+    	<LinearLayout
+			android:orientation="horizontal"
+	    	android:id="@+id/linearLayout1"
+	    	android:layout_height="44dp"
+	    	android:layout_width="252dp"
+	    	android:layout_marginTop="16dp"
+	    	android:focusable="true"
+	    	android:gravity="center_vertical"
+	    	android:background="@drawable/button_extras"
+	    	android:onClick="clickInstructions">
+	    	
+	    	<ImageView 
+	    		android:src="@drawable/icon_anleitung"
+	    		android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="6dp" />
+				
+	    	<TextView
+	    		android:text="@string/instruction"
+	    		android:textSize="17sp"
+	    		android:textStyle="bold"
+	    		android:textColor="@android:color/white"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="10dp" />
+			
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+	    	android:id="@+id/linearLayout2"
+	    	android:layout_height="44dp"
+	    	android:layout_width="252dp"
+	    	android:focusable="true"
+	    	android:gravity="center_vertical"
+	    	android:background="@drawable/button_extras"
+	    	android:onClick="clickFormulary">
+	    	
+	    	<ImageView 
+	    		android:src="@drawable/icon_formelsammlung"
+	    		android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="6dp" />
+				
+	    	<TextView
+	    		android:text="@string/formulary"
+	    		android:textSize="17sp"
+	    		android:textStyle="bold"
+	    		android:textColor="@android:color/white"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="10dp" />
+			
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+	    	android:id="@+id/linearLayout3"
+	    	android:layout_height="44dp"
+	    	android:layout_width="252dp"
+	    	android:focusable="false"
+	    	android:gravity="center_vertical"
+	    	android:background="@drawable/button_extras">
+	    	
+	    	<ImageView 
+	    		android:src="@drawable/icon_bremsberechner"
+	    		android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="6dp" />
+				
+	    	<TextView
+	    		android:text="@string/braking_distance"
+	    		android:textSize="17sp"
+	    		android:textStyle="bold"
+	    		android:textColor="@android:color/darker_gray"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="10dp" />
+			
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+	    	android:id="@+id/linearLayout4"
+	    	android:layout_height="44dp"
+	    	android:layout_width="252dp"
+	    	android:focusable="false"
+	    	android:gravity="center_vertical"
+	    	android:background="@drawable/button_extras">
+	    	
+	    	<ImageView 
+	    		android:src="@drawable/icon_verkehrszeichen"
+	    		android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="6dp" />
+				
+	    	<TextView
+	    		android:text="@string/traffic_signs"
+	    		android:textSize="17sp"
+	    		android:textStyle="bold"
+	    		android:textColor="@android:color/darker_gray"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="10dp" />
+			
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+	    	android:id="@+id/linearLayout5"
+	    	android:layout_height="44dp"
+	    	android:layout_width="252dp"
+	    	android:focusable="true"
+	    	android:gravity="center_vertical"
+	    	android:background="@drawable/button_extras"
+	    	android:onClick="clickStVO">
+	    	
+	    	<ImageView 
+	    		android:src="@drawable/icon_stvo"
+	    		android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="6dp" />
+				
+	    	<TextView
+	    		android:text="@string/stvo"
+	    		android:textSize="17sp"
+	    		android:textStyle="bold"
+	    		android:textColor="@android:color/white"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="10dp" />
+			
+		</LinearLayout>
+		
+		<LinearLayout
+			android:orientation="horizontal"
+	    	android:id="@+id/linearLayout6"
+	    	android:layout_height="44dp"
+	    	android:layout_width="252dp"
+	    	android:focusable="true"
+	    	android:gravity="center_vertical"
+	    	android:background="@drawable/button_extras"
+	    	android:onClick="clickRateApp">
+	    	
+	    	<ImageView 
+	    		android:src="@drawable/icon_bewerten"
+	    		android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="6dp" />
+				
+	    	<TextView
+	    		android:text="@string/rate_app"
+	    		android:textSize="17sp"
+	    		android:textStyle="bold"
+	    		android:textColor="@android:color/white"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="10dp" />
+			
+		</LinearLayout>
+		
+    </LinearLayout>
+    
+</RelativeLayout>

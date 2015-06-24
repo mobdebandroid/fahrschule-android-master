@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="formula_titles">
+        <item>Reaktionsweg</item>
+        <item>Bremsweg</item>
+        <item>Gefahrenbremsung</item>
+        <item>Anhalteweg</item>
+        <item>Mindestabstand</item>
+        <item>Tempolimits</item>
+    </string-array>
+    
+    <string-array name="formula_descriptions">
+        <item>Der Weg, der zwischen Erkennen einer Gefahr und Beginn der tatsächlichen Bremsung zurückgelegt wird.</item>
+        <item>Die Strecke, die ein Fahrzeug vom Beginn der Bremsung bis zum Ende der Bremsung zurücklegt. Bei trockener und gefestigter Fahrbahn gilt hierbei k=1. Bei nasser Fahrbahn und Betonfahrbahn wird etwa der 1,5-fache bis doppelte Bremsweg (k=1,5…2) und bei Schnee- und Eisfahrbahn, sowie Rollsplit, wird der vierfache Bremsweg (k=4) benötigt.</item>
+        <item>Bei trockener und gefestigter Fahrbahn gilt hierbei k=1. Bei nasser Fahrbahn und Betonfahrbahn wird etwa der 1,5-fache bis doppelte Bremsweg (k=1,5…2) und bei Schnee- und Eisfahrbahn, sowie Rollsplit, wird der vierfache Bremsweg (k=4) benötigt.</item>
+        <item>Der Anhalteweg ist die Strecke, die ein Fahrzeug vom Zeitpunkt des Auftretens eines Hindernisses bis zum Stillstand zurücklegt.</item>
+        <item>Die Distanz, die mindestens zwischen zwei Fahrzeugen im Straßenverkehr eingehalten werden sollte. Bei trockener und gefestigter Fahrbahn gilt hierbei k=1. Bei nasser Fahrbahn und Betonfahrbahn wird etwa der 1,5-fache bis doppelte Bremsweg (k=1,5…2) und bei Schnee- und Eisfahrbahn, sowie Rollsplit, wird der vierfache Bremsweg (k=4) benötigt.</item>
+        <item>Die erlaubte Höchstgeschwindigkeit ist ein verbindlicher Grenzwert für die Geschwindigkeit eines Fahrzeugs, der nicht überschritten werden darf. In Deutschland gelten die folgenden Werte:</item>
+    </string-array>
+    
+	<string-array name="licenseClassArray">
+	   <item>Motorräder</item>
+	   <item>Leichtkrafträder</item>
+	   <item>Pkw</item>
+	   <item>Schwere Lkw</item>
+	   <item>Leichtere Lkw</item>
+	   <item>Schwere Lastzüge</item>
+	   <item>Busse</item>
+	   <item>Kleinere Busse</item>
+	   <item>Trikes, Quads</item>
+	   <item>Traktoren</item>
+	   <item>Traktoren</item>
+	   <item>Kleinkrafträder</item>
+	   <item>Mofa</item>
+	</string-array>
+	 
+	<string-array name="licenseClassValues">
+	   <item>1</item>
+	   <item>2</item>
+	   <item>4</item>
+	   <item>8</item>
+	   <item>16</item>
+	   <item>32</item>
+	   <item>64</item>
+	   <item>128</item>
+	   <item>256</item>
+	   <item>512</item>
+	   <item>1024</item>
+	   <item>2048</item>
+	   <item>4096</item>
+	</string-array>
+	
+	<string-array name="teachingTypeArray">
+	   <item>Ersterwerb</item>
+	   <item>Erweiterung</item>
+	</string-array>
+	
+	<string-array name="teachingTypeArray_first_time">
+	   <item>Ersterwerb</item>
+	</string-array>
+	
+	<string-array name="teachingTypeArray_additional">
+	   <item>Erweiterung</item>
+	</string-array>
+	 
+	<string-array name="teachingTypeValues">
+	   <item>1</item>
+	   <item>2</item>
+	</string-array>
+	
+	<string-array name="teachingTypeValues_first_time">
+	   <item>1</item>
+	</string-array>
+	
+	<string-array name="teachingTypeValues_additional">
+	   <item>2</item>
+	</string-array>
+	
+	<string-array name="polling_choices">
+	   <item>Alle Themenbereiche</item>
+	   <item>Alle falsch Beantworteten</item>
+	   <item>Alle Unbeantworteten</item>
+	   <item>Falsch &amp; Unbeantwortete</item>
+	</string-array>
+	
+	<string-array name="polling_choices_2">
+	   <item>Alle Fragen</item>
+	   <item>Alle falsch Beantworteten</item>
+	   <item>Alle Unbeantworteten</item>
+	   <item>Falsch &amp; Unbeantwortete</item>
+	</string-array>
+	
+	<string-array name="exam_texts">
+	   <item>Fehlerlos! Hervorragend!</item>
+	   <item>Gratulation, bestanden!</item>
+	   <item>Nicht schlecht, dranbleiben!</item>
+	   <item>Naja - üben, üben, üben!</item>
+	   <item>Ohje! Es gibt noch viel zu lernen.</item>
+	</string-array>
+</resources>

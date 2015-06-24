@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_mit_gitter">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        
+        <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="18sp"
+	        android:textStyle="bold"
+	        android:textColor="@android:color/white"
+	        android:text="@string/buy_full_version_title" />
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:gravity="center"
+	        android:layout_marginTop="4dp"
+	        android:layout_width="308dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/textView1"
+	        android:textSize="17sp"
+		    android:textColor="@android:color/white"
+	        android:text="@string/buy_full_version_text" />
+        
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/textView2"
+	        android:layout_centerHorizontal="true"
+	        android:src="@drawable/anleitung_start" />
+	    
+	    <Button
+			android:id="@+id/button1"
+			android:layout_height="45dp"
+			android:text="@string/buy_full_version"
+			style="@style/CustomButton"
+			android:layout_width="300dp"
+			android:layout_marginTop="8dp"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@+id/imageView1"
+			android:onClick="buyFullVersion" />
+	    
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/layout/buy_full_version.xml -->

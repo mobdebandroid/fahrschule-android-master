@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainQuestionsRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/mainGroupButton"
+    android:layout_alignParentBottom="true"
+    android:background="@color/official_exam_dark_green">
+		
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginTop="5dp"
+	    android:onClick="selectQuestion"
+	    android:tag="0"
+	    android:text="1" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton2"
+	    android:layout_toRightOf="@+id/mainButton1"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="1"
+	    android:text="2" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton3"
+	    android:layout_toRightOf="@+id/mainButton2"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="2"
+	    android:text="3" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton4"
+	    android:layout_toRightOf="@+id/mainButton3"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="3"
+	    android:text="4" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton5"
+	    android:layout_toRightOf="@+id/mainButton4"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="4"
+	    android:text="5" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton6"
+	    android:layout_toRightOf="@+id/mainButton5"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="5"
+	    android:text="6" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton7"
+	    android:layout_toRightOf="@+id/mainButton6"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="6"
+	    android:text="7" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton8"
+	    android:layout_toRightOf="@+id/mainButton7"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="7"
+	    android:text="8" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton9"
+	    android:layout_toRightOf="@+id/mainButton8"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="8"
+	    android:text="9" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton10"
+	    android:layout_toRightOf="@+id/mainButton9"
+	    android:layout_alignTop="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="9"
+	    android:text="10" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton11"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_alignLeft="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="10"
+	    android:text="11" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton12"
+	    android:layout_toRightOf="@+id/mainButton1"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="11"
+	    android:text="12" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton13"
+	    android:layout_toRightOf="@+id/mainButton2"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="12"
+	    android:text="13" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton14"
+	    android:layout_toRightOf="@+id/mainButton3"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="13"
+	    android:text="14" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton15"
+	    android:layout_toRightOf="@+id/mainButton4"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="14"
+	    android:text="15" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton16"
+	    android:layout_toRightOf="@+id/mainButton5"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="15"
+	    android:text="16" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton17"
+	    android:layout_toRightOf="@+id/mainButton6"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="16"
+	    android:text="17" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton18"
+	    android:layout_toRightOf="@+id/mainButton7"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="17"
+	    android:text="18" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton19"
+	    android:layout_toRightOf="@+id/mainButton8"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="18"
+	    android:text="19" />
+	
+	<de.freenet.pocketfahrschulelite.widget.QuestionSelectButton
+	    android:id="@+id/mainButton20"
+	    android:layout_toRightOf="@+id/mainButton9"
+	    android:layout_below="@+id/mainButton1"
+	    android:layout_width="43dp"
+	    android:layout_height="40dp"
+	    android:onClick="selectQuestion"
+	    android:tag="19"
+	    android:text="20" />
+	
+</RelativeLayout><!-- From: file:/D:/LindenValley/Mobicom_03062015/project/studio/fahrschulelite-android-master/fahrschuleliteandroidmaster/src/main/res/layout/select_btns_main.xml -->

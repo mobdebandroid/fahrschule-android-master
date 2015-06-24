@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/question_filter"
+		android:layout="@layout/settings_list_section_header">
+		
+		<Preference
+        android:title="@string/license_class"
+        android:layout="@layout/settings_list_item"
+        android:key="licenseClass" />
+        
+		<ListPreference
+        android:title="@string/teaching_type"
+        android:layout="@layout/settings_list_item_2"
+        android:key="teachingType"
+        android:dependency="licenseClass"
+        android:defaultValue="1"
+        android:entries="@array/teachingTypeArray"
+        android:entryValues="@array/teachingTypeValues" />
+        
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+		android:title="@string/additional_settings"
+		android:layout="@layout/settings_list_section_header">
+		
+		<CheckBoxPreference
+        android:title="@string/guest_mode"
+        android:defaultValue="false"
+        android:layout="@layout/settings_list_item_checkbox"
+        android:summary="@string/guest_mode_desc"
+        android:key="guestMode" />
+		
+		<CheckBoxPreference
+        android:title="@string/exam_layout"
+        android:defaultValue="false"
+        android:layout="@layout/settings_list_item_checkbox"
+        android:summary="@string/exam_layout_desc"
+        android:key="officialExamLayout" />
+        
+		<Preference
+        android:title="@string/delete_statistic"
+        android:defaultValue="false"
+        android:summary="@string/delete_statistic_desc"
+        android:layout="@layout/settings_list_item_button"
+        android:key="customPref" />
+        
+	</PreferenceCategory>
+</PreferenceScreen>
