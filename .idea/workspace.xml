@@ -22,6 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4d466ce-d70f-4d4c-bc3e-430a230693c7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fahrschuleliteandroidmaster/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HoloGraphLibrary/HoloGraphLibrary.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fahrschuleliteandroidmaster/fahrschuleliteandroidmaster.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freenetSharedLibrary/freenetSharedLibrary.iml" />
